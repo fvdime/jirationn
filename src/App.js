@@ -14,6 +14,7 @@ import UpgradePlan from "./pages/UpgradePlan";
 import Calender from "./pages/Calender";
 import Login from './pages/Login'
 import Register from './pages/Register'
+import Contact from "./pages/Contact";
 
 const App = () => {
   const [activeMenu, setActiveMenu] = useState(true);
@@ -62,7 +63,9 @@ const App = () => {
                 <Route path="/calender" element={<Calender />} />
                 <Route path="/register" element={<Register />} />
                 <Route path="/login" element={<Login />} />
+                <Route path="/contact" element={<Contact />} />
               </Routes>
+            
             </div>
           </div>
         </div>

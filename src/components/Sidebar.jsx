@@ -54,8 +54,8 @@ const Sidebar = ({ activeMenu, setActiveMenu }) => {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  clip-rule="evenodd"
-                  fill-rule="evenodd"
+                  clipRule="evenodd"
+                  fillRule="evenodd"
                   d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"
                 ></path>
               </svg>
@@ -240,9 +240,9 @@ const Sidebar = ({ activeMenu, setActiveMenu }) => {
                 >
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M1 8h11m0 0L8 4m4 4-4 4m4-11h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3"
                   />
                 </svg>
@@ -282,7 +282,6 @@ const Sidebar = ({ activeMenu, setActiveMenu }) => {
                 </span>
               </a>
             </li>
-            
 
             <li>
               <a
@@ -385,9 +384,9 @@ const Sidebar = ({ activeMenu, setActiveMenu }) => {
                 >
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M1 8h11m0 0L8 4m4 4-4 4m4-11h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3"
                   />
                 </svg>
@@ -509,7 +508,7 @@ const Sidebar = ({ activeMenu, setActiveMenu }) => {
           <ul className="pt-4 mt-4 space-y-2 font-medium border-t border-gray-200">
             <li>
               <a
-                href="/"
+                href="/contact"
                 className="flex items-center p-2 text-gray-900 transition duration-75 rounded-lg hover:bg-gray-100"
               >
                 <svg
@@ -521,13 +520,13 @@ const Sidebar = ({ activeMenu, setActiveMenu }) => {
                 >
                   <path d="M16 14V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v15a3 3 0 0 0 3 3h12a1 1 0 0 0 0-2h-1v-2a2 2 0 0 0 2-2ZM4 2h2v12H4V2Zm8 16H3a1 1 0 0 1 0-2h9v2Z" />
                 </svg>
-                <span className="ml-3">Documentation</span>
+                <span className="ml-3">Contact With Us</span>
                 <span
                   className={`${
                     activeMenu && "hidden"
                   } absolute left-48 bg-white/50 font-semibold whitespace-pre text-gray-900 rounded-md drop-shadow-lg px-0 py-0 w-0 group-hover:px-2 group-hover:py-1 group-hover:left-14 group-hover:duration-300 overflow-hidden group-hover:w-fit`}
                 >
-                  dashboard
+                  Contact With Us
                 </span>
               </a>
             </li>
@@ -582,9 +581,9 @@ const Sidebar = ({ activeMenu, setActiveMenu }) => {
                 >
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
                   />
                 </svg>
@@ -595,13 +594,12 @@ const Sidebar = ({ activeMenu, setActiveMenu }) => {
             </p>
             <div className="flex items-center justify-center">
               <a href="/upgrade">
-
-              <button
-                type="button"
-                className="py-2.5 px-5 mr-2 text-sm font-medium text-gray-700 focus:outline-none border-2 border-slate-700 hover:bg-gradient-to-r from-blue-900 to-slate-900 rounded-full hover:bg-lime-100 hover:text-gray-300 focus:z-10 focus:ring-4 focus:ring-lime-200 uppercase"
-              >
-                upgrade
-              </button>
+                <button
+                  type="button"
+                  className="py-2.5 px-5 mr-2 text-sm font-medium text-gray-700 focus:outline-none border-2 border-slate-700 hover:bg-gradient-to-r from-blue-900 to-slate-900 rounded-full hover:bg-lime-100 hover:text-gray-300 focus:z-10 focus:ring-4 focus:ring-lime-200 uppercase"
+                >
+                  upgrade
+                </button>
               </a>
             </div>
           </div>

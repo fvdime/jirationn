@@ -28,10 +28,7 @@ const NewTask = ({ open, onClose, fetchData }) => {
         onClick={onCloseHandle}
       >
         <div className="relative w-full max-w-md max-h-full">
-          <div
-            className="relative bg-white rounded-lg shadow"
-            ref={wrapperRef}
-          >
+          <div className="relative bg-white rounded-lg shadow" ref={wrapperRef}>
             <button
               type="button"
               className="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center"
@@ -63,7 +60,7 @@ const NewTask = ({ open, onClose, fetchData }) => {
                     <div className="flex items-center space-x-4">
                       <div className="flex-1 min-w-0 justify-start">
                         <label
-                          htmlFor="message"
+                          htmlhtmlFor="message"
                           className="block mb-2 text-sm font-medium text-gray-900"
                         >
                           Title
